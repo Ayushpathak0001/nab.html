@@ -1,0 +1,18 @@
+h1{
+    font-size:xx-large;
+    font-family:sans-serif;
+    text-align:center;
+    background-color:rgb(157, 124, 188);
+    width:50%;
+    justify-self: center;
+}
+
+body{
+    background-color:rgb(102, 123, 160)
+}
+p{
+    font-family: cursive;
+    font-size:medium;
+    background-color:rgb(163, 217, 163)
+}
+
