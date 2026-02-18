@@ -5,6 +5,7 @@ h1{
     background-color:rgb(157, 124, 188);
     width:50%;
     justify-self: center;
+    color:rgb(235, 235, 235);
 }
 
 body{
@@ -13,6 +14,5 @@ body{
 p{
     font-family: cursive;
     font-size:medium;
-    background-color:rgb(163, 217, 163)
+    background-color:rgb(163, 217, 163);
 }
-
