@@ -1,0 +1,50 @@
+html,body{
+    width :100%;
+    height:100%;
+}
+body{
+    background-color:rgb(132, 219, 219);
+    width:100%;
+    height:100%;
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    text-decoration:underline dotted;
+    width:50%;
+    margin:20px auto;
+}
+dl{
+    border:3px salmon;
+}
+div{
+    width:50%;
+    height:40%;
+    
+   
+
+    
+}
+#box1{
+    border-radius:50%;
+    border-style:dotted;
+    border-color:rgb(106, 56, 152);
+    width:200px;
+    height:200px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    background-color:azure;
+}
+#box2{
+    border-width:100px;
+    border-radius:20px;
+    border-color:rgb(208, 97, 18);
+    width:500px;
+    height:100px;
+    text-align:center;
+    justify-content:center;
+    background-color:azure
+
+}
