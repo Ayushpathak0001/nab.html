@@ -6,6 +6,60 @@ html,body{
     height:100%;
     width:100%;
 }
-.heading{
-    color:red;
+body{
+    
+    
+}
+#main{
+    height:100%;
+    width:100%;
+   
+    display: flex;
+   
+    
+    
+
+}
+#box1{
+    height:15%;
+    width:100%;
+    background-color:rgb(39, 38, 38);
+    display:flex;
+    align-items: center;
+    position: fixed;
+}
+#texts{
+   color:rgb(223, 162, 49);
+   width:100px;
+   
+   
+   border-radius:10px;
+   font-size: 23px;
+   text-align: center;
+  
+   
+
+}
+.texts:hover{
+    background-color:rgb(225, 214, 214);
+    color:cornflowerblue;
+}
+
+a{
+    color:rgb(112, 112, 255);
+    margin:150px;
+    text-decoration: underline;
+    border-radius:7px;
+}
+a:hover{
+    background-color: rgb(230, 230, 237);
+}
+button{
+    margin:5px;
+    font-size:20px;
+    background-color: rgb(241, 241, 106);
+}
+input{
+    font-size:large;
+    
 }

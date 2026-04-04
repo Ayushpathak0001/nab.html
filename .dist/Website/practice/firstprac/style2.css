@@ -10,3 +10,16 @@ html,body{
 button{
     background-color: chocolate;
 }
+h1{
+   margin-left:38%;
+  text-decoration:7px overline wavy;
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width:25%;
+    height:10%;
+   border:5px dotted skyblue;
+}
