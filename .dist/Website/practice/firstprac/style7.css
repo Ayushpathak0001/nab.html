@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(225, 120, 90, 0.5);
+}
+
+#box1{
+    height:100px;
+     display:none;
+
+    background-color:aqua;
+
+}
+#box2{
+    background-color:aquamarine;
+     display:inline-block;
+    height:100px;
+
+
+}
+#box3{
+    background-color:blueviolet;
+     display:inline-block;
+     height:100px;
+
+}
+p{
+display:block;
+}
