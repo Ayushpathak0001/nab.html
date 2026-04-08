@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+#box1{
+    height:30%;
+    width:30%;
+    background-color:skyblue;
+    transition:all 2s ease-in-out;
+
+   
+
+}
+#box2{
+    height:30%;
+    width:30%;
+    background-color:palegoldenrod;
+   transition:all 3s linear;
+   transition:
+}
+div:hover{
+   
+    transform:rotate(70deg);
+    background-color:cadetblue;
+}
+    

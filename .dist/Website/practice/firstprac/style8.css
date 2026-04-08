@@ -1,0 +1,56 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    text-align: center;
+}
+div{
+    height:200px;
+    width:70%;
+    border:5px solid black;
+    display:inline-block;
+    
+}
+
+#main{
+    height:500px;
+    width:400px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+   
+    align-items:center;
+    
+    
+   
+    
+
+
+    
+    
+    
+
+}
+#box1{
+    background-color:rgba(120,0,0,0.4);
+    
+}
+#box2{
+    background-color: rgba(170,0, 0, 0.6);
+    flex-shrink: 2;
+    
+
+}
+#box3{
+    background-color:rgba(200, 0,0, 0.7);
+    
+}
+#box4{
+    background-color: rgba(220, 0, 0, 0.9);
+   
+}
+#box5{
+    background-color: rgba(0,0, 120, 0.8);
+}
