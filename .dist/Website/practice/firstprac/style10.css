@@ -16,7 +16,8 @@ body{
     height:30%;
     width:30%;
     background-color:skyblue;
-    transition:all 2s ease-in-out;
+    transition:all 2s ease-in-out ;
+    text-align: center;
 
    
 
@@ -25,12 +26,21 @@ body{
     height:30%;
     width:30%;
     background-color:palegoldenrod;
-   transition:all 3s linear;
-   transition:
+   transition:all 3s linear 2s;
+   text-align: center;
+  
 }
 div:hover{
-   
-    transform:rotate(70deg);
-    background-color:cadetblue;
+    color:white;
+    
+    background-color:gainsboro;
+    transform:scalex(1.4);
+    
+    font-size:x-large;
+    
+    
 }
     
+#box2:hover{
+    transform:scaley(1.4);
+}
