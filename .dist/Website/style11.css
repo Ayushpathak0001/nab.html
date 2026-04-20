@@ -1,38 +1,379 @@
 *{
-    margin: 0%;
-   
-    border:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-    
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
 }
 .navbar{
     height:60px;
+    width:100%;
     background-color: #0f1111;
-    color:white;
-    display: flex;
-}
-.nav-logo{
-    height:50px;
-    width:100px;
-    display: flex;
-}
-.amlogo{
+    display:flex;
+    align-items: center;
     
-    height:50px;
-    width:50px;
+    
+   
 }
-img{
+
+
+.logo img{
+    width:100px;
     height:50px;
-    object-fit: cover;
+    
+}
+ .logo img:hover{
+     border:2px solid white;
+     border-radius: 5px;
+} 
+.deli{
+    margin:10px;
+    color:white;
+    font-size:larger;
+    cursor: pointer;
+}
+.deli:hover{
+    
+    border:2px solid white;
+    border-radius:5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+/* Dropdown */
+.search-select {
+    height: 100%;
+    width: 60px;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+/* Input */
+.search-input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    width:650px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+/* Search icon */
+.search-icon {
+    width: 45px;
+    height: 100%;
+    background-color:rgba(255, 165, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.search-icon:hover{
+    background-color: rgba(255, 165, 0, 0.6);
+}
+.search-bar {
+    border: 2px solid transparent;
+    margin-right:20px;
+}
+
+
+.search-bar:hover {
+    border: 2px solid orange;
+}
+
+.flag img{
+    height:20px;
+    margin-left:10px;
+    margin-top:5px;
+}
+.lang{
+    margin:5px;
   
 }
-.border{
-    border:2px solid transparent;
+.language{
+    
+    
+    display:flex;
+
+}
+.language:hover{
+  
+    border:2px solid white;
+}
+ .hello{
+    color:white;
+    margin:20px;
+ }
+ .hello:hover{
+    border:2px solid white;
+ }
+ .return{
+    color:white;
+    margin:20px;
+ }
+ .return:hover{
+    border:2px solid white;
+ }
+ .cart{
+    color:white;
+    display: flex;
+ }
+ .cart:hover{
+    border:2px solid white;
+ }
+ .carticon i{
+    font-size:50px;
+ }
+ .cartname{
+    margin-top:35px;
+    font-size:larger;
+ }
+.secondnav{
+    height:40px;
+    width:100%;
+   background-color: #232f3e;
+   color:white;
+   display:flex;
+   align-items: center;
+   font-size:large;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.all:hover{
+border:2px solid white;
+}
+.deal{
+    margin-left:20px;
+}
+.deal:hover{
+    border:2px solid white;
+}
+.gift{
+    margin-left:20px;
+}
+.gift:hover{
+    border:2px solid white;
+}
+.sell{
+    margin-left:20px;
+}
+.sell:hover{
+    border:2px solid white;
+
+}
+.registry{
+    margin-left:20px;
+}
+.registry:hover{
+    border:2px solid white;
+}
+.video{
+    margin-left:20px;
+}
+.video:hover{
+    border:2px solid white;
+}
+.service{
+    margin-left:20px;
+}
+.service:hover{
+    border:2px solid white;
+}
+.banner {
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 98.5%;
+    display: block;
+    height:200px;
+    margin-left:10px;
+}
+
+/* Common arrow style */
+.banner i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Left arrow */
+.left-arrow {
+    left: 10px;
+}
+
+/* Right arrow */
+.right-arrow {
+    right: 10px;
+}
+.bigbox{
+    height:430px;
+    background-color:rgb(200, 245, 200);
+    display:flex;
+    align-items: center;
+    margin-left:10px;
+    margin-right:10.5px;
+}
+.box1{
+    margin-left:10px;
+    height:400px;
+    width:360px;
+    background-color:white;
+    font-size:x-large;
+    text-align: center;
     
 }
-.border:hover{
-    border: 2px solid white;
+.home{
+    display: flex;
 }
-#logo{
+.box2{
+    margin-left:15px;
+    height:400px;
+    width:360px;
+    background-color: white;
+    font-size:x-large;
+    text-align: center;
+}
+.box3{
+    height:400px;
+    width:360px;
+    background-color: white;
+    margin-left:15px;
+    font-size:x-large;
+    text-align: center;
+}
+.box4{
+    height:400px;
+    width:360px;
+    background-color: white;
+    margin-left:15px;
+    font-size:x-large;
+    text-align: center;
+}
+.ac{
+   margin-left:20px;
+   height:150px; 
+   width:150px;
+  font-size: large;
+   margin-top:50px;
+   text-decoration: underline;
+}
+.ac img{
+    height:150px;
+    width:150px;
+}
+.fridge{
+    height:150px;
+    width:150px;
+    margin-top:50px;
+   margin-left:20px;
+   font-size:large;
+   text-decoration:underline;
+}
+.fridge img{
+    height:150px;
+    width:150px;
+}
+.style{
+    display:flex;
+
+}
+.mattres{
+    height:150px;
+    width:150px;
+    margin-top:75px;
+    margin-left:20px;
+    font-size:large;
+    text-decoration:underline;
+}
+.mattres img{
+    height:150px;
+    width:150px;
+}
+.toy{
+    height:150px;
+    width:150px;
+    margin-top:75px;
+    margin-left:20px;
+    font-size:large;
+    text-decoration: underline;
+}
+.toy img{
+    height:150px;
+    width:150px;
+}
+.bulk{
+    display:flex;
+    
+
+}
+.laptop{
+    height:150px;
+    width:150px;
+    margin-top:50px;
+    font-size:large;
+    margin-left:20px;
+    text-decoration: underline;
+}
+.laptop img{
+    height:150px;
+    width:150px;
+}
+.kitchen{
+    height:150px;
+    width:150px;
+    font-size:large;
+    margin-top:50px;
+    margin-left:20px;
+    text-decoration:underline;
+
+}
+.kitchen img{
+    height:150px;
+    width:150px;
+}
+.essential{
     display:flex;
 }
+.cleaning{
+    height:150px;
+    width:130px;
+    font-size:large;
+    margin-top:50px;
+    text-decoration: underline;
+}
+.cleaning.img{
+    height:150px;
+    width:150px;
+}
+.essential{
+    display:flex;
+    text-align: center;
+}
+.bathroom{
+    height:150px;
+    width:150px;
+    font-size:large;
+    margin-top:50px;
+    text-decoration:underline;
+    margin-left:70px;
+}
+.bathroom img{
+    height:150px;
+    width:150px;
+}
+
